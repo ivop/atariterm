@@ -26,6 +26,18 @@ If you use the default $HOME/.atari800.cfg configuration you might see
 some error messages flash by that complain about SDL related stuff. You
 can safely ignore them.  
 
+##### Keybindings:
+
+* F2 Option
+* F3 Select
+* F4 Start
+* F5 Warmstart (+shift is coldstart)
+* F6 Help
+* F7 Break
+* F8 Caps
+* F9 Exit emulator
+* Alt-, Alt-. and Alt-; map to Control-, Control-. and Control-; respectively.
+
 The code in this repository is Copyright © 2023 by Ivo van Poorten  
 
 See LICENSE for details.  
