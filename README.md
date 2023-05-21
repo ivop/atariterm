@@ -55,7 +55,7 @@ The emulator runs at the approximately normal speed of 20ms per frame.
 
 ##### Screenshots
 
-* gnome-terminal
+* gnome-terminal, running the supplied sample disk
 
 ![screenshot1](img/screenshot1.png)
 ![screenshot3](img/screenshot3.png)
@@ -65,6 +65,9 @@ The emulator runs at the approximately normal speed of 20ms per frame.
 ![screenshot4](img/screenshot4.png)
 ![screenshot5](img/screenshot5.png)
 
+* xterm, even smaller font, running syncalc
+
+![screenshot6](img/screenshot6.png)
 
 The code in this repository is Copyright © 2023 by Ivo van Poorten  
 
