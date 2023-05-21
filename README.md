@@ -12,7 +12,7 @@ character glyphs is required.
 
 * download the atari800 sources from https://github.com/atari800/atari800
 
-* configure it with ./configure --target=libatari800
+* run ./autogen.sh and configure it with CFLAGS=-O3 ./configure --disable-sdltest --disable-cursesbasic --disable-crashmenu --disable-eventrecording --disable-audiorecording --disable-videorecording --disable-screenshots --disable-pngcodec --disable-zmbvcodec  --disable-opengl-by-default --disable-bufferdlog --disable-newcycleexact --target=libatari800
 
 * make it so
 
@@ -63,7 +63,7 @@ The emulator runs at the approximately normal speed of 20ms per frame.
 ![screenshot1](img/screenshot1.png)
 ![screenshot3](img/screenshot3.png)
 
-* lxterminal, different and smaller font, border color, mixed modes
+* lxterminal, different and smaller font, mixed modes
 
 ![screenshot4](img/screenshot4.png)
 ![screenshot5](img/screenshot5.png)
