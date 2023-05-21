@@ -1,8 +1,8 @@
-### Atari 800 Emulator in terminal console
+### Atari 800 Emulator in a terminal or console
 
 Uses standard vt100/ANSI to fake a GTIA/ANTIC image.  
 
-Needs a terminal window or console of at least 49x31 characters. Modern
+Needs a terminal window or console of at least 48x31 characters. Modern
 terminal emulators like gnome-terminal, konsole, lxterminal, but also the
 Linux console and good 'ol xterm work fine. It needs to handle vt100/ANSI
 codes and unicode characters. A proper unicode font for all the control
