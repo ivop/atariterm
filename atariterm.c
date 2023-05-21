@@ -112,6 +112,14 @@ char *KEY_LALT_COMMA    = ",";
 char *KEY_LALT_FULLSTOP = ".";
 char *KEY_LALT_SEMI     = ";";
 
+char *KEY_LALT_H = "h";
+char *KEY_LALT_I = "i";
+char *KEY_LALT_M = "m";
+
+char *KEY_LALT_LBRACKET  = "[";
+char *KEY_LALT_RBRACKET  = "]";
+char *KEY_LALT_BACKSLASH = "\\";
+
 char *KEY_HOME = "[H";
 char *KEY_DEL  = "[3~";
 char *KEY_INS  = "[2~";
@@ -564,6 +572,16 @@ int main(int argc, char **argv) {
                 input.keycode = RAW_AKEY_FULLSTOP | RAW_AKEY_CTRL;
             if (!strcmp(KEY_LALT_SEMI, keybuf))
                 input.keycode = RAW_AKEY_SEMICOLON | RAW_AKEY_CTRL;
+
+            if (!strcmp(KEY_LALT_LBRACKET, keybuf) ||
+                !strcmp(KEY_LALT_H,keybuf))
+                input.keycode = RAW_AKEY_h | RAW_AKEY_CTRL;
+            if (!strcmp(KEY_LALT_RBRACKET, keybuf) ||
+                !strcmp(KEY_LALT_I,keybuf))
+                input.keycode = RAW_AKEY_i | RAW_AKEY_CTRL;
+            if (!strcmp(KEY_LALT_BACKSLASH, keybuf) ||
+                !strcmp(KEY_LALT_M,keybuf))
+                input.keycode = RAW_AKEY_m | RAW_AKEY_CTRL;
 
             if (!strcmp(KEY_HOME, keybuf))
                 input.keycode = RAW_AKEY_CLEAR;
