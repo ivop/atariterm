@@ -37,6 +37,7 @@ can safely ignore them.
 * F8 Caps
 * F9 Exit emulator
 * Alt-, Alt-. and Alt-; map to Control-, Control-. and Control-; respectively.
+* Home Clear
 
 The code in this repository is Copyright © 2023 by Ivo van Poorten  
 
