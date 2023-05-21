@@ -42,6 +42,7 @@ The emulator runs at the approximately normal speed of 20ms per frame.
 
 ##### Keybindings
 
+* F1 Pause emulation; you can now select and copy text from the window.
 * F2 Option
 * F3 Select
 * F4 Start

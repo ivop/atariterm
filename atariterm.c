@@ -464,7 +464,7 @@ endstop:
               "                        \r\n", stdout);
 stop:
     fputs("[m", stdout);
-    printf("DL: %04X ", dlist);
+    printf("[1MDL: %04X ", dlist);
     fflush(stdout);
 }
 
@@ -541,6 +541,13 @@ int main(int argc, char **argv) {
                 input.keycode = RAW_AKEY_CAPSTOGGLE;
             if (!strcmp(KEY_F9, keybuf))
                 exit(0);
+
+            if (!strcmp(KEY_F1, keybuf)) {
+                printf("PAUSE");
+                fflush(stdout);
+                while (!kbhit())
+                    ;
+            }
 
             if (!strcmp(KEY_UP, keybuf))
                 input.keycode = RAW_AKEY_UP;
