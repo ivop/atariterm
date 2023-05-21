@@ -58,7 +58,6 @@ The emulator runs at the approximately normal speed of 20ms per frame.
 * gnome-terminal
 
 ![screenshot1](img/screenshot1.png)
-![screenshot2](img/screenshot2.png)
 ![screenshot3](img/screenshot3.png)
 
 * lxterminal, different and smaller font, border color, mixed modes
