@@ -26,6 +26,10 @@ If you use the default $HOME/.atari800.cfg configuration you might see
 some error messages flash by that complain about SDL related stuff. You
 can safely ignore them.  
 
+Limitted color support by the fake GTIA and ANTIC implementation. Only two shades per color and a lot of colors map to the same base color. You do get
+a different text color than the background though, just like a Sophia upgrade
+on real hardware. You get used to yellow on blue pretty quickly.
+
 ##### Keybindings:
 
 * F2 Option
