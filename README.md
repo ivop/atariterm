@@ -20,11 +20,12 @@ character glyphs is required.
 
 * make
 
-* ./atariterm [atari800 command line options]
+* ./atariterm -config config.cfg [atari800 command line options]
 
-If you use the default $HOME/.atari800.cfg configuration you might see
+If you use your default $HOME/.atari800.cfg configuration you might see
 some error messages flash by that complain about SDL related stuff. You
-can safely ignore them.  
+can safely ignore them. The supplied sample config file does not include
+any ROM paths. You have to setup these yourself.  
 
 Limitted color support by the fake GTIA and ANTIC implementation. Only two shades per color and a lot of colors map to the same base color. You do get
 a different text color than the background though, just like a Sophia upgrade
