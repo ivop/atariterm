@@ -505,7 +505,7 @@ int main(int argc, char **argv) {
     fputs(CURSOROFF, stdout);
     fflush(stdout);
 
-    int len;
+    int len = 0;
     int cnt = 0;
 
     while(1) {
