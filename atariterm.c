@@ -250,6 +250,14 @@ static void fake_antic() {
     else
         bgcolor = bgbright[c2>>4];
 
+    if (!strcmp(color2, color1)) { // force always contrasting colors in gr. 0
+        if (color1 == fgdark[c1>>4]) {
+            color1 = fgbright[c1>>4];
+        } else {
+            color1 = fgdark[c1>>4];
+        }
+    }
+
     if ((bk&0x0f)<8)
         bkcolor = bgdark[bk>>4];
     else
