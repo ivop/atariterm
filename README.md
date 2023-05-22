@@ -60,7 +60,9 @@ The emulator runs at the approximately normal speed of 20ms per frame.
 
 * Linux and your favorite terminal emulator that supports vt100/ANSI.
 
-* Windows. It compiles with cygwin (not MSYS2 because it lacks termios). Run it in cygwin's mintty. Cmd.exe is way too slow. You need to hack the atari800
+* Windows. It compiles with cygwin (not MSYS2 because it lacks termios). Run it
+in cygwin's mintty. The windows terminal window is way too slow. You need to
+hack the atari800
 sources to use strcasecmp as Util_stricmp (util.h) or it won't compile.
 
 * macOS. atari800 does not compile cleanly with XCode's clang. I used brew install gcc. After that, it runs fine and the terminal is fast enough.
