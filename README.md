@@ -51,7 +51,7 @@ The emulator runs at the approximately normal speed of 20ms per frame.
 * F7 Break
 * F8 Caps
 * F9 Exit emulator
-* Alt-, Alt-. and Alt-; map to Control-, Control-. and Control-; respectively, becuase the control combination cannot be detected.
+* Alt-, Alt-. and Alt-; map to Control-, Control-. and Control-; respectively, becuase the control combinations cannot be detected.
 * Alt-h, Alt-i, and Alt-m map to Control-h, Control-i, and Control-m, because they cannot be distinguished from the ASCII controls for BS, TAB and CR. In case they clash with the keyboard shortcuts of your terminal emulator, you can also use Alt-[, Alt-], and Alt-\ respectively.
 * Home Clear
 * Arrows are cursor keys without needing to press Control.
