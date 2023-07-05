@@ -8,7 +8,11 @@ Linux console and good 'ol xterm work fine. It needs to handle vt100/ANSI
 codes and unicode characters. A proper unicode font for all the control
 character glyphs is required.
 
-##### Instructions
+##### Precompiled Binaries
+
+You can download precompiled binaries on the [release page](https://github.com/ivop/atariterm/releases/tag/v1.0).
+
+##### Compilation Instructions
 
 * download the atari800 sources from https://github.com/atari800/atari800
 
